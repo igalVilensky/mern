@@ -8,7 +8,7 @@ const app = express();
 
 // app.use("/api/auth", require("./routes/auth.routes"))
 
-const PORT = config.get("port") || 5000;
+const PORT = config.get("port") || 5050;
 
 async function start() {
   try {
