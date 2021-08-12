@@ -10,8 +10,24 @@ function AuthPage() {
             <span className="card-title">Authorization</span>
             <div>
               <div class="input-field">
-                <input placeholder="Placeholder" id="first_name" type="text" />
-                <label htmlFor="first_name">First Name</label>
+                <input
+                  placeholder="Enter your email"
+                  id="email"
+                  type="text"
+                  name="email"
+                  className="yellow-input"
+                />
+                <label htmlFor="email">Email</label>
+              </div>
+              <div class="input-field">
+                <input
+                  placeholder="Enter your password"
+                  id="password"
+                  type="password"
+                  name="password"
+                  className="yellow-input"
+                />
+                <label htmlFor="password">Password</label>
               </div>
             </div>
           </div>
