@@ -55,7 +55,7 @@ router.post(
     check("email", "Please enter correct email address")
       .normalizeEmail()
       .isEmail(),
-    check("password", "Please enter correct password"),
+    check("password", "Please enter correct password").exists(),
   ],
   async (req, res) => {
     try {
